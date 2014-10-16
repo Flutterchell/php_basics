@@ -1,10 +1,9 @@
 //You know about rot13 ? Well, it's the same thing, only with only 1 character instead of 13.//
 
-
 <?php
-	function rotone($string)
+	function rotone($pouet)
 	{
-		$string = strtr($string, "abcdefghijklmnopqrstuvwxyz", "bcdefghijklmnopkrstuvwxya");
+		$string = strtr($pouet, "abcdefghijklmnopqrstuvwxyz", "bcdefghijklmnopkrstuvwxya");
 		$string = strtolower($string);
 		echo $string."\n";
 	}
