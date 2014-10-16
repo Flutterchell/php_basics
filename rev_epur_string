@@ -1,0 +1,9 @@
+//This function reverses every word in a string, and deletes all the tabs and unecessary spaces.//
+<?php
+	function rotone($pouet)
+	{
+		$string = strtr($pouet, "abcdefghijklmnopqrstuvwxyz", "bcdefghijklmnopkrstuvwxya");
+		$string = strtolower($string);
+		echo $string."\n";
+	}
+?>
