@@ -1,0 +1,10 @@
+//This function is used to print arrays, as $key => $value.
+<?php
+	function print_array($tableau)
+	{
+		foreach ($tableau as $key => $value) {
+			echo $key . ' => ' . $value."\n";
+		}
+
+	} 
+?>
